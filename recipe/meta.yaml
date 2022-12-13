@@ -16,7 +16,6 @@ build:
   entry_points:
     - arelleCmdLine = arelle.CntlrCmdLine:main
     - arelleGUI = arelle.CntlrWinMain:main
-  
 
 requirements:
   host:
