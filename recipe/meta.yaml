@@ -13,6 +13,10 @@ build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
   number: 0
+  entry_points:
+    - arelleCmdLine = arelle.CntlrCmdLine:main
+    - arelleGUI = arelle.CntlrWinMain:main
+  
 
 requirements:
   host:
@@ -38,8 +42,15 @@ test:
     - pip
 
 about:
-  home: https://pypi.org/project/arelle-release/
-  summary: An open source XBRL platform.
+  home: https://arelle.org
+  dev_url: https://github.com/Arelle/Arelle
+  doc_url: https://arelle.org/arelle/documentation/
+  summary: >
+    Arelle is an end-to-end open source XBRL platform, which provides the XBRL
+    community with an easy to use set of tools. It supports XBRL and its extension
+    features in an extensible manner. It does this in a compact yet robust framework
+    that can be used as a desktop application and can be integrated with other
+    applications and languages utilizing its web service.
   license: Apache-2.0
   license_file:
     - LICENSE.md
@@ -47,3 +58,4 @@ about:
 extra:
   recipe-maintainers:
     - zschira
+    - zaneselvans
