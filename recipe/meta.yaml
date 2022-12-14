@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
   entry_points:
     - arelleCmdLine = arelle.CntlrCmdLine:main
     - arelleGUI = arelle.CntlrWinMain:main
@@ -59,3 +59,10 @@ extra:
   recipe-maintainers:
     - zschira
     - zaneselvans
+    - aaroncameron-wk
+    - allenbross-wf
+    - austinmatherne-wk
+    - derekgengenbacher-wf
+    - hefischer
+    - sagesmith-wf
+    - stevenbronson-wk
