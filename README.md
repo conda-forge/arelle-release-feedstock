@@ -1,13 +1,18 @@
 About arelle-release
 ====================
 
-Home: https://pypi.org/project/arelle-release/
+Home: https://arelle.org
 
 Package license: Apache-2.0
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/arelle-release-feedstock/blob/main/LICENSE.txt)
 
-Summary: An open source XBRL platform.
+Summary: Arelle is an end-to-end open source XBRL platform, which provides the XBRL community with an easy to use set of tools. It supports XBRL and its extension features in an extensible manner. It does this in a compact yet robust framework that can be used as a desktop application and can be integrated with other applications and languages utilizing its web service.
+
+
+Development: https://github.com/Arelle/Arelle
+
+Documentation: https://arelle.org/arelle/documentation/
 
 Current build status
 ====================
@@ -143,5 +148,13 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@aaroncameron-wk](https://github.com/aaroncameron-wk/)
+* [@allenbross-wf](https://github.com/allenbross-wf/)
+* [@austinmatherne-wk](https://github.com/austinmatherne-wk/)
+* [@derekgengenbacher-wf](https://github.com/derekgengenbacher-wf/)
+* [@hefischer](https://github.com/hefischer/)
+* [@sagesmith-wf](https://github.com/sagesmith-wf/)
+* [@stevenbronson-wk](https://github.com/stevenbronson-wk/)
+* [@zaneselvans](https://github.com/zaneselvans/)
 * [@zschira](https://github.com/zschira/)
 
