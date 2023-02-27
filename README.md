@@ -1,11 +1,11 @@
-About arelle-release
-====================
+About arelle-release-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/arelle-release-feedstock/blob/main/LICENSE.txt)
 
 Home: https://arelle.org
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/arelle-release-feedstock/blob/main/LICENSE.txt)
 
 Summary: Arelle is an end-to-end open source XBRL platform, which provides the XBRL community with an easy to use set of tools. It supports XBRL and its extension features in an extensible manner. It does this in a compact yet robust framework that can be used as a desktop application and can be integrated with other applications and languages utilizing its web service.
 
