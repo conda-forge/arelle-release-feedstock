@@ -31,6 +31,11 @@ requirements:
     - openpyxl ==3.*
     - pyparsing ==3.*
     - regex
+    - aniso8601
+    - cherrypy
+    - cheroot
+    - python-dateutil
+    - pycountry
 
 test:
   imports:
