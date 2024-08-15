@@ -1,5 +1,5 @@
 {% set name = "arelle-release" %}
-{% set version = "2.27.4" %}
+{% set version = "2.30.21" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 703bbbfe84786ded2e0bf2837441f2c54fbfe1d69cfb9b8ceb678f9cff62894e
+  sha256: 2d7af2ae78f0d72195be1589bafedc2086c3adb4a9f08476d94b13fe78f7cbd4
 
 build:
   noarch: python
@@ -25,8 +25,9 @@ requirements:
   run:
     - python >=3.8
     - certifi
+    - filelock
     - isodate ==0.*
-    - lxml ==4.*
+    - lxml >=4,<6
     - numpy ==1.*
     - openpyxl ==3.*
     - pyparsing ==3.*
