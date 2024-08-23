@@ -20,9 +20,9 @@ build:
 requirements:
   host:
     - python >=3.8
-    - setuptools ~=73.0
-    - setuptools-scm ~=8.1
-    - wheel ~=0.44
+    - setuptools >=73,<74
+    - setuptools-scm >=8.1,<9
+    - wheel >=0.44,<0.45
     - pip
   run:
     - python >=3.8
