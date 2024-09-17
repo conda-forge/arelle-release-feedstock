@@ -1,5 +1,5 @@
 {% set name = "arelle-release" %}
-{% set version = "2.31.0" %}
+{% set version = "2.31.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 0804d38206c59fbe94ea6825e5bda4f8a205dbcdd1bed448525d7c0c0df5b735
+  sha256: 13e04e23d35b2f2aca52c9c2032f3445e7f4e27f318a2c8ea55839892a02c76f
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
   entry_points:
     - arelleCmdLine = arelle.CntlrCmdLine:main
     - arelleGUI = arelle.CntlrWinMain:main
