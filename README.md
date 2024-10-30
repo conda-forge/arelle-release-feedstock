@@ -152,8 +152,6 @@ Feedstock Maintainers
 * [@allenbross-wf](https://github.com/allenbross-wf/)
 * [@austinmatherne-wk](https://github.com/austinmatherne-wk/)
 * [@derekgengenbacher-wf](https://github.com/derekgengenbacher-wf/)
-* [@hefischer](https://github.com/hefischer/)
-* [@sagesmith-wf](https://github.com/sagesmith-wf/)
 * [@stevenbronson-wk](https://github.com/stevenbronson-wk/)
 * [@zaneselvans](https://github.com/zaneselvans/)
 * [@zschira](https://github.com/zschira/)

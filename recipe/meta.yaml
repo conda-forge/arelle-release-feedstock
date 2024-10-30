@@ -1,5 +1,5 @@
 {% set name = "arelle-release" %}
-{% set version = "2.35.0" %}
+{% set version = "2.35.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: adf64a5f0b4a4844fe9547aa19a281c79edabfb86e1f22560e9ee2802610defb
+  sha256: 56f9667812a02c0d00cf19bcbbbcab983a8d8f12e4c7ccbe612f36c0e6d67815
 
 build:
   noarch: python
@@ -19,13 +19,13 @@ build:
 
 requirements:
   host:
-    - python >=3.9
+    - python >=3.9,<3.13
     - setuptools
     - setuptools-scm
     - wheel
     - pip
   run:
-    - python >=3.9
+    - python >=3.9,<3.13
     - certifi
     - filelock
     - isodate ==0.*
