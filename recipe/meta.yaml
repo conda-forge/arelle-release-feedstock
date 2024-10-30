@@ -19,13 +19,13 @@ build:
 
 requirements:
   host:
-    - python >=3.9
+    - python >=3.9,<3.13
     - setuptools
     - setuptools-scm
     - wheel
     - pip
   run:
-    - python >=3.9
+    - python >=3.9,<3.13
     - certifi
     - filelock
     - isodate ==0.*
