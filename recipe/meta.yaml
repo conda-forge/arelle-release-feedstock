@@ -25,7 +25,8 @@ requirements:
     - wheel
     - pip
   run:
-    - python >={{ python_min }},<3.13
+    - python >={{ python_min }},<3.14
+    - bottle >=0.13,<0.14
     - certifi
     - filelock
     - isodate ==0.*
