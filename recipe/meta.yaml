@@ -38,7 +38,7 @@ requirements:
     - pyparsing >=3,<4
     - python-dateutil >=2,<3
     - regex
-    - truststore>=0,<1
+    - truststore >=0,<1
     - typing-extensions >=4,<5
 
 test:
