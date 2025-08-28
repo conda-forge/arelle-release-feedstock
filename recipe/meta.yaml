@@ -1,5 +1,5 @@
 {% set name = "arelle-release" %}
-{% set version = "2.37.49" %}
+{% set version = "2.37.51" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 18b9f7c016096af57ba5fc678d6c7ff0e15273f45a8a3029e8ea473043572d33
+  sha256: 98ab935282693142a2c6e056ca9eba85363d0ea7f4a8850a8685cb34fe15e81f
 
 build:
   noarch: python
@@ -29,16 +29,17 @@ requirements:
     - bottle >=0.13,<0.14
     - certifi
     - filelock
-    - isodate ==0.*
-    - jsonschema ==4.*
-    - lxml >=4,<6
+    - isodate >=0,<1
+    - jsonschema >=4,<5
+    - lxml >=4,<7,!=6.0.0
     - numpy >=1,<3
-    - openpyxl ==3.*
+    - openpyxl >=3,<4
     - pillow >=10,<12
-    - pyparsing ==3.*
-    - python-dateutil ==2.*
+    - pyparsing >=3,<4
+    - python-dateutil >=2,<3
     - regex
-    - typing-extensions ==4.*
+    - truststore >=0,<1
+    - typing-extensions >=4,<5
 
 test:
   imports:
