@@ -30,6 +30,7 @@ requirements:
     - certifi
     - filelock
     - isodate >=0,<1
+    - jaconv >=0,<1
     - jsonschema >=4,<5
     - lxml >=4,<7,!=6.0.0
     - numpy >=1,<3
