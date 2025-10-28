@@ -1,5 +1,5 @@
 {% set name = "arelle-release" %}
-{% set version = "2.37.67" %}
+{% set version = "2.37.68" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 3a2cad62218e63e111af1a4a4497a60254befebff6fbf72a8025e066b474ffbe
+  sha256: 95f44122124c374bdccff29696c83619a82ac4209919982b8c77344f7d6e716c
 
 build:
   noarch: python
