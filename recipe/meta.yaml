@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
   entry_points:
     - arelleCmdLine = arelle.CntlrCmdLine:main
     - arelleGUI = arelle.CntlrWinMain:main
@@ -25,7 +25,7 @@ requirements:
     - wheel
     - pip
   run:
-    - python >={{ python_min }},<3.14
+    - python >={{ python_min }}
     - bottle >=0.13,<0.14
     - certifi
     - filelock
